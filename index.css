@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: #014E56;
+    padding-top: 70px;
+}
+
+header button:hover {
+    background-color: #ffff;
+    color: black;
+    transition: 0.4s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: #F67E7E;
+    transition: 0.3s;
+}
+
+.logo h1 {
+    width: 160px;
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul li a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header_h1 {
+    flex-shrink: 0;
+    color: #ffff;
+    font-size: 30px;
+}
+
+nav button {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    border: 2px solid #fff;
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 10px 40px;
+}
+
+.header_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65vh;
+}
+
+.img {
+    margin-bottom: 5vh;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 100% */
+}
+
+p {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.section_title span {
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+#firs_section {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.smal_text small {
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.smal_text em {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+}
+
+#general_section {
+    background: #012F34;
+}
+
+.main_text h2 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+#general_section {
+    width: 100%;
+    height: 684px;
+    flex-shrink: 0;
+}
+
+#section_end {
+    background: #004047;
+}
+
+#section_end h2 {
+    padding-top: 140px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+#section_end h2 span {
+    color: #79C8C7;
+}
+
+.card_box {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 100px;
+}
+
+.card {
+    text-align: center;
+    transition: all .5s;
+    padding: 0 10px;
+    border: 1px solid rgba(179, 204, 223, 0.2);
+}
+
+.card .cant {
+    transform: translateY(20px);
+    width: 67px;
+    height: 56px;
+    flex-shrink: 0;
+    opacity: .2;
+}
+
+.card p {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.card h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+
+.main_end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card:hover,
+.card:active {
+    box-shadow: 25px 35px 10px 2px rgba(179, 204, 223, 0.2);
+    border: none;
+}
+
+.card img {
+    width: 60px;
+    transition: all .3s;
+    margin-bottom: 20px;
+}
+
+.card img:hover {
+    width: 80px;
+}
+
+#section_the_end {
+    width: 100%;
+    height: 30vh;
+    background: #F67E7E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_section h3 {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.btn_section button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.div_section {
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_section button {
+    width: 140px;
+    height: 48px;
+    border: 3pxsolid white;
+    border-radius: 25px;
+    background: #F67E7E;
+}
+
+.div_section button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+footer {
+    width: 1519px;
+    background: #002529;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 48px 0;
+}
+
+.small_box {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+
+.ftr_text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.small_box .p p {
+    width: 445px;
+    color: #fff;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.footer_icon_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 65%;
+    margin-bottom: 40px;
+}
+
+.footer_icon_box i {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.footer_end .text_footer p {
+    padding-top: 52px;
+    width: 255px;
+    color: #FFF;
+    text-align: right;
+    font-family: 'Livvic';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: .6;
+}
+
+.ftr_text li a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text_footer {
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+#menu {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        max-width: 100%;
+        height: 100vh;
+    }
+    .container {
+        width: 90%;
+    }
+    nav ul {
+        width: 200px;
+        height: 200px;
+        background-color: #004047;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        left: 75px;
+        transition: all 2s ease;
+    }
+    .open {
+        position: absolute;
+        top: -250px;
+    }
+    #menu {
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+    footer {
+        max-width: 100%;
+    }
+    .footer_end {
+        position: relative;
+        right: 350px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        max-width: 100%;
+        height: 100vh;
+    }
+    .container {
+        width: 90%;
+    }
+    nav ul {
+        width: 200px;
+        height: 200px;
+        background-color: #004047;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        left: 75px;
+        transition: all 2s ease;
+    }
+    .open {
+        position: absolute;
+        top: -250px;
+    }
+    #menu {
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+    footer {
+        max-width: 100%;
+    }
+    .footer_end {
+        position: relative;
+        right: 350px;
+        flex-direction: column;
+    }
+}
